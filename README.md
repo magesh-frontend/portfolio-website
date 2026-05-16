@@ -38,14 +38,23 @@ Right now I’m focusing on frontend development (React), so this portfolio main
 ## Project structure
 
 portfolio/
+
 ├── public/
+
 ├── src/
+
 │   ├── components/
+
 │   ├── assets/
+
 │   ├── App.jsx
+
 │   └── index.js
+
 ├── package.json
+
 └── README.md
+
 
 ---
 
