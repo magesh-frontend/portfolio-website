@@ -1,0 +1,106 @@
+.hero {
+  width: 100%;
+  margin-top: 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 100px 25px 25px;
+}
+
+.hero-text {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero-name {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hero-name p { font-size: 18px; }
+
+.hero-name h2 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.hero-name span {
+  font-weight: bold;
+  font-size: 22px;
+  color: rgb(0,0,0);
+  background-color: rgba(13,110,253,0.5);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: slide 2s ease-in-out alternate infinite;
+  padding: 2px 8px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px 0px rgba(13,110,253,0.5), -1px -1px 8px 0px rgba(13,110,253,0.5);
+  display: inline-block;
+}
+
+@keyframes slide {
+  0% { width: 0; }
+  100% { width: 210px; }
+}
+
+.hero-text > p {
+  font-family: 'Gill Sans', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.hero-social {
+  display: flex;
+  gap: 15px;
+  font-size: 28px;
+}
+
+.hero-social a { color: black; transition: transform 0.2s; }
+.hero-social a:hover { transform: scale(1.2); }
+
+.hero-cv-btn {
+  border: none;
+  box-shadow: 1px 1px 2px 0px black, -1px -1px 2px 0px black;
+  border-radius: 10px;
+  padding: 8px 16px;
+  background: white;
+  cursor: pointer;
+  font-size: 15px;
+  width: fit-content;
+  transition: box-shadow 0.2s;
+}
+
+.hero-cv-btn:hover {
+  box-shadow: 1px 1px 5px 0px var(--blue), -1px -1px 5px 0px var(--blue);
+}
+
+.hero-cv-btn a { color: black; font-weight: 600; }
+
+.hero-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-profile img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 30px rgba(13,110,253,0.4);
+}
+
+@media (max-width: 750px) {
+  .hero {
+    flex-direction: column-reverse;
+    padding-top: 120px;
+    gap: 24px;
+  }
+  .hero-text { width: 100%; }
+  .hero-profile { width: 100%; }
+}

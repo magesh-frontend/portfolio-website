@@ -1,0 +1,84 @@
+.education-section {
+  width: 100%;
+  min-height: 100vh;
+  padding: 80px 20px;
+  font-size: 16px;
+}
+
+.edu-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 30px;
+}
+
+.edu-left, .edu-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.edu-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  border: 2px solid #0d6efd;
+  max-width: 1px;
+}
+
+.edu-center i {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #0d6efd;
+  color: black;
+}
+
+.edu-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: nowrap;
+}
+
+.edu-card-inner {
+  width: 25rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 20px;
+  font-weight: bold;
+  margin: 10px;
+  box-shadow: 1px 1px 5px 0px #0d6efd, -1px -1px 5px 0px #0d6efd;
+  gap: 14px;
+  background: white;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.edu-year {
+  width: 135px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #0d6efd;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+
+.edu-card-inner h3 { font-size: 17px; }
+.edu-card-inner p { font-size: 14px; font-weight: normal; }
+
+.arrow-icon { font-size: 25px; color: #0d6efd; }
+
+@media (max-width: 750px) {
+  .edu-center, .arrow-icon { display: none; }
+  .edu-box { flex-direction: column; align-items: center; }
+  .edu-card-inner { width: 90%; }
+}

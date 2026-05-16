@@ -1,0 +1,139 @@
+.projects-section {
+  width: 100%;
+  padding: 80px 20px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  place-items: center;
+  gap: 24px;
+  padding: 20px 0 40px;
+}
+
+.flip-card {
+  width: 300px;
+  height: 300px;
+  box-shadow: 1px 1px 5px 0px #0d6efd, -1px -1px 5px 0px #0d6efd;
+  border-radius: 30px;
+  perspective: 800px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.9s;
+  transform-style: preserve-3d;
+  border-radius: 30px;
+}
+
+.flip-card:hover .flip-card-inner { transform: rotateY(180deg); }
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 30px;
+}
+
+.flip-card-front {
+  background: white;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.flip-card-front h4 {
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+.tech-icons {
+  display: flex;
+  gap: 8px;
+  padding: 6px 20px;
+  border: 1.5px solid black;
+  background: transparent;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tech-icons img {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+}
+
+.click-hint { color: #888; font-size: 14px; }
+
+.flip-card-back {
+  background: white;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 20px;
+  gap: 16px;
+}
+
+.flip-card-back h5 { font-size: 22px; }
+.flip-card-back p { font-size: 15px; color: #444; line-height: 1.5; }
+
+.project-link-btn {
+  border-radius: 10px;
+  background: transparent;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s;
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.project-link-btn:hover {
+  background: rgba(13,110,253,0.1);
+  border-color: #0d6efd;
+}
+
+.project-link-btn a { 
+  color: black; 
+}
+
+@media (max-width: 900px) {
+  .projects-grid { grid-template-columns: auto auto; }
+}
+@media (max-width: 600px) {
+  .projects-grid { grid-template-columns: 1fr; }
+  .flip-card { width: 90%; }
+}
+
+.project-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.github-btn {
+   background-color: #373737;
+   color: black;
+}
+
+.live-btn {
+  background-color: skyblue;
+  color: black;
+}
+
+.live-btn:hover {
+  background-color: #38bdf8;
+  color: white;
+}
