@@ -2,7 +2,7 @@
 
 This is my personal portfolio website where I’ve put together my projects, skills, and what I’ve been learning in frontend development.
 
-🔗 Live: https://magesh-portfolio.vercel.app/  
+🔗 Live: https://portfolio-nine-livid-47.vercel.app/ 
 📂 Repo: https://github.com/magesh-frontend/portfolio  
 
 ---
@@ -76,7 +76,7 @@ I’m currently learning frontend development and improving my skills by buildin
 ## Contact
 
 GitHub: https://github.com/magesh-frontend  
-Portfolio: https://magesh-portfolio.vercel.app  
+Portfolio: https://portfolio-nine-livid-47.vercel.app/  
 
 ---
 
