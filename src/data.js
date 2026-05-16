@@ -1,7 +1,3 @@
-// ============================================================
-// UPDATE YOUR DETAILS HERE — EVERYTHING FLOWS FROM THIS FILE
-// ============================================================
-
 export const data = {
   name: "Magesh B",
   role: "Front-End Developer",
