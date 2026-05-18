@@ -29,7 +29,7 @@ export default function Hero() {
         <div>
           <button className="hero-cv-btn">
             <i className="fa-regular fa-file-pdf" style={{ color: '#ff3300', marginRight: 6 }} />
-            <a href={data.resume} download="Magesh Resume" target="_blank" rel="noreferrer">
+            <a href={data.resume} download="Magesh_Resume.pdf" target="_blank" rel="noreferrer">
               Download CV
             </a>
           </button>
