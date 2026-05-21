@@ -20,7 +20,7 @@ export const data = {
       items: [
         { name: "HTML", img: "/skill/HTML-Logo.png" },
         { name: "CSS", img: "/skill/CSS-logo.png" },
-        { name: "JavaScript", img: "/skill/Js-logo.png" },
+        { name: "JavaScript", img: "/skill/js-logo.png" },
       ],
     },
     {
