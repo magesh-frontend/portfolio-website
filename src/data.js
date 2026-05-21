@@ -68,7 +68,7 @@ export const data = {
   projects: [
     {
       title: "SUPERCART E-COMMERCE",
-      tech: ["/skill/HTML-Logo.png", "/skill/CSS-logo.png", "/skill/Js-logo.png", "/skill/reactjs-logo.png"],
+      tech: ["/skill/HTML-Logo.png", "/skill/CSS-logo.png", "/skill/js-logo.png", "/skill/reactjs-logo.png"],
      techNames: ["HTML", "CSS", "JS", "React"],
       description: "Modern e-commerce application with responsive design, product browsing, cart management, and smooth shopping experience for users.",
       live: "https://supercart-git-main-magesh-frontends-projects.vercel.app/",
@@ -76,7 +76,7 @@ export const data = {
     },
     {
       title: "CINE SEARCH APP",
-      tech: ["/skill/HTML-Logo.png", "/skill/CSS-logo.png", "/skill/Js-logo.png", "/skill/reactjs-logo.png"],
+      tech: ["/skill/HTML-Logo.png", "/skill/CSS-logo.png", "/skill/js-logo.png", "/skill/reactjs-logo.png"],
       techNames: ["HTML", "CSS", "JS", "React"],
       description: "Movie search application with responsive UI and real-time search functionality. Browse, search and explore film details seamlessly.",
       live: "https://cinesearch-movie-app-zo85.vercel.app/",
