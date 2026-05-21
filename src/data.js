@@ -20,7 +20,7 @@ export const data = {
       items: [
         { name: "HTML", img: "/skill/HTML-Logo.png" },
         { name: "CSS", img: "/skill/CSS-logo.png" },
-        { name: "JavaScript", img: "/skill/js-logo.png" },
+        { name: "JavaScript", img: "/skill/javascript-logo.png" },
       ],
     },
     {
@@ -68,23 +68,23 @@ export const data = {
   projects: [
     {
       title: "SUPERCART E-COMMERCE",
-      tech: ["/skill/HTML-Logo.png", "/skill/CSS-logo.png", "/skill/js-logo.png", "/skill/reactjs-logo.png"],
-     techNames: ["HTML", "CSS", "JS", "React"],
+      tech: ["/skill/HTML-Logo.png", "/skill/CSS-logo.png", "/skill/javascript-logo.png", "/skill/reactjs-logo.png"],
+     techNames: ["HTML", "CSS", "JavaScript", "React"],
       description: "Modern e-commerce application with responsive design, product browsing, cart management, and smooth shopping experience for users.",
       live: "https://supercart-git-main-magesh-frontends-projects.vercel.app/",
       github: "https://github.com/magesh-frontend/supercart-ecommerce"
     },
     {
       title: "CINE SEARCH APP",
-      tech: ["/skill/HTML-Logo.png", "/skill/CSS-logo.png", "/skill/js-logo.png", "/skill/reactjs-logo.png"],
-      techNames: ["HTML", "CSS", "JS", "React"],
+      tech: ["/skill/HTML-Logo.png", "/skill/CSS-logo.png", "/skill/javascript-logo.png", "/skill/reactjs-logo.png"],
+      techNames: ["HTML", "CSS", "JavaScript", "React"],
       description: "Movie search application with responsive UI and real-time search functionality. Browse, search and explore film details seamlessly.",
       live: "https://cinesearch-movie-app-zo85.vercel.app/",
       github: "https://github.com/magesh-frontend/cinesearch-movie-app"
     },
     {
       title: "SPENDLENS TRACKER",
-      tech: ["/skill/HTML-Logo.png","/skill/reactjs-logo.png", "/skill/CSS-logo.png", "/skill/js-logo.png",],
+      tech: ["/skill/HTML-Logo.png","/skill/reactjs-logo.png", "/skill/CSS-logo.png", "/skill/javascript-logo.png",],
       techNames: ["React JS", "Tailwind CSS", "JavaScript"],
       description: "Develop a responsive expense tracking website that is visually appealing, user-friendly, and helps users manage daily expenses efficiently. Built using React JS & Tailwind CSS.",
       live: "https://spendlens-eight.vercel.app",
@@ -92,7 +92,7 @@ export const data = {
     },
     {
       title: "ADVANCED TASK MANAGER",
-      tech: ["/skill/HTML-Logo.png", "/skill/CSS-logo.png", "/skill/js-logo.png", "/skill/reactjs-logo.png"],
+      tech: ["/skill/HTML-Logo.png", "/skill/CSS-logo.png", "/skill/javascript-logo.png", "/skill/reactjs-logo.png"],
       techNames: ["HTML", "CSS", "JavaScript","React JS"],
       description: "Develop a static website that is visually appealing, user-friendly, static websites that deliver a seamless user experience. Using HTML & CSS for structure and styling,and JavaScript for interactivity.",
       live: "https://advanced-task-manager-4wd6.vercel.app/",
