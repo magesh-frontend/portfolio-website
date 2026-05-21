@@ -67,6 +67,14 @@ export const data = {
 
   projects: [
     {
+      title: "SUPERCART E-COMMERCE",
+      tech: ["/skill/HTML-Logo.png", "/skill/CSS-logo.png", "/skill/Js-logo.png", "/skill/reactjs-logo.png"],
+     techNames: ["HTML", "CSS", "JS", "React"],
+      description: "Modern e-commerce application with responsive design, product browsing, cart management, and smooth shopping experience for users.",
+      live: "https://supercart-git-main-magesh-frontends-projects.vercel.app/",
+      github: "https://github.com/magesh-frontend/supercart-ecommerce"
+    },
+    {
       title: "CINE SEARCH APP",
       tech: ["/skill/HTML-Logo.png", "/skill/CSS-logo.png", "/skill/Js-logo.png", "/skill/reactjs-logo.png"],
       techNames: ["HTML", "CSS", "JS", "React"],
@@ -84,8 +92,8 @@ export const data = {
     },
     {
       title: "ADVANCED TASK MANAGER",
-      tech: ["/skill/HTML-Logo.png", "/skill/CSS-logo.png", "/skill/js-logo.png"],
-      techNames: ["HTML", "CSS", "JavaScript"],
+      tech: ["/skill/HTML-Logo.png", "/skill/CSS-logo.png", "/skill/js-logo.png", "/skill/reactjs-logo.png"],
+      techNames: ["HTML", "CSS", "JavaScript","React JS"],
       description: "Develop a static website that is visually appealing, user-friendly, static websites that deliver a seamless user experience. Using HTML & CSS for structure and styling,and JavaScript for interactivity.",
       live: "https://advanced-task-manager-4wd6.vercel.app/",
       github: "https://github.com/magesh-frontend/advanced-task-manager"
