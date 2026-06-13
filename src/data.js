@@ -12,7 +12,7 @@ export const data = {
   linkedin: "https://www.linkedin.com/in/mageshbalu-dev/",
   whatsapp: "https://wa.me/918870384006?text=Hi%20Magesh%20I%20saw%20your%20portfolio",
   instagram: "https://www.instagram.com/str_magesh006",
-  resume: "/resume/Magesh_B_React_Frontend_Developer_Resume.pdf",
+  resume: "/resume/Magesh_B_React_Developer_Resume.pdf",
 
   skills: [
     {
